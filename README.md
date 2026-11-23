@@ -20,24 +20,26 @@ On Windows use `.venv\Scripts\activate` instead. The first command runs the full
 
 ## Recorded results
 
+These are small educational benchmarks, not evidence of real-world generalization. Perfect scores on this small evaluation are not a production accuracy claim.
+
 ![Recorded local result](results.png)
 
 These values are generated from `results.json`, not estimated or copied. Rerun the code to check them. Minor numerical differences may occur across platforms. Full per-example or per-fold details, where applicable, are in the JSON file.
 
 | Measure | Local result |
 | --- | ---: |
-|  / models / forest / accuracy | 1.000000 |
-|  / models / forest / macro f1 | 1.000000 |
-|  / models / forest / train cv macro f1 | 0.985380 |
-|  / models / logistic / accuracy | 1.000000 |
-|  / models / logistic / macro f1 | 1.000000 |
-|  / models / logistic / train cv macro f1 | 0.977744 |
-|  / models / majority / accuracy | 0.400000 |
-|  / models / majority / macro f1 | 0.190476 |
-|  / models / majority / train cv macro f1 | 0.189906 |
-|  / seed | 42 |
-|  / test rows | 45 |
-|  / train rows | 133 |
+| Forest: accuracy | 1.000000 |
+| Forest: macro F1 | 1.000000 |
+| Forest: train CV macro F1 | 0.985380 |
+| Logistic: accuracy | 1.000000 |
+| Logistic: macro F1 | 1.000000 |
+| Logistic: train CV macro F1 | 0.977744 |
+| Majority: accuracy | 0.400000 |
+| Majority: macro F1 | 0.190476 |
+| Majority: train CV macro F1 | 0.189906 |
+| Seed | 42 |
+| Test rows | 45 |
+| Train rows | 133 |
 
 `verification.txt` records the local test run. The included GitHub Actions workflow is a reproducible check, not a claim that remote CI has already passed.
 
