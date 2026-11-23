@@ -1,0 +1,11 @@
+Local verification. Not a hosted CI result.
+
+test_baseline (test_demo.ExperimentTests) ... ok
+test_confusion (test_demo.ExperimentTests) ... ok
+test_output_matches_returned_result (test_demo.ExperimentTests) ... ok
+test_split (test_demo.ExperimentTests) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.406s
+
+OK

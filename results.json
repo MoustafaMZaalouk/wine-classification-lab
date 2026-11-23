@@ -1,0 +1,73 @@
+{
+  "models": {
+    "forest": {
+      "accuracy": 1.0,
+      "confusion_matrix": [
+        [
+          15,
+          0,
+          0
+        ],
+        [
+          0,
+          18,
+          0
+        ],
+        [
+          0,
+          0,
+          12
+        ]
+      ],
+      "macro_f1": 1.0,
+      "train_cv_macro_f1": 0.9853801169590642
+    },
+    "logistic": {
+      "accuracy": 1.0,
+      "confusion_matrix": [
+        [
+          15,
+          0,
+          0
+        ],
+        [
+          0,
+          18,
+          0
+        ],
+        [
+          0,
+          0,
+          12
+        ]
+      ],
+      "macro_f1": 1.0,
+      "train_cv_macro_f1": 0.9777443609022557
+    },
+    "majority": {
+      "accuracy": 0.4,
+      "confusion_matrix": [
+        [
+          0,
+          15,
+          0
+        ],
+        [
+          0,
+          18,
+          0
+        ],
+        [
+          0,
+          12,
+          0
+        ]
+      ],
+      "macro_f1": 0.19047619047619047,
+      "train_cv_macro_f1": 0.18990569516885308
+    }
+  },
+  "seed": 42,
+  "test_rows": 45,
+  "train_rows": 133
+}
