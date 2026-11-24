@@ -1,5 +1,9 @@
 # Wine Classification Lab
 
+[![CI](https://github.com/MoustafaMZaalouk/wine-classification-lab/workflows/Reproducible%20project%20checks/badge.svg)](https://github.com/MoustafaMZaalouk/wine-classification-lab/blob/main/.github/workflows/test.yml)
+
+*Live workflow status, not a production-readiness or model-quality rating.*
+
 Compare a majority baseline, scaled logistic regression and a random forest on a fixed stratified holdout.
 
 A small educational project prepared with AI assistance for Moustafa Zaalouk's portfolio. This is new demonstration code, not a claim about past employment, research, clients or production deployment. It does not reuse another person's project under a different name.
